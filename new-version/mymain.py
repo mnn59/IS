@@ -17,7 +17,7 @@ def border_msg(msg):
 
 # TODO: try-except
 def main():
-    ascii_banner = pyfiglet.figlet_format("MY SCANNER")
+    ascii_banner = pyfiglet.figlet_format("MY SCANNER - 2")
     print(ascii_banner)
     try:
         while 1:
