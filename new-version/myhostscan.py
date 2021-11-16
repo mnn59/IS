@@ -10,7 +10,7 @@ def generate_hosts(address, start, last):
 def scan_hosts(address, start, last):
     nm = nmap.PortScanner()
     nm.scan(hosts=generate_hosts(address, start, last), arguments='-v -sn')
-    print(nm.command_line())
+    # print(nm.command_line())
     hosts_list = [(x, nm[x]['status']['state']) for x in nm.all_hosts()]
     with open('result_host.txt', 'w') as f:
         for host, status in hosts_list:
