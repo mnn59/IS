@@ -1,0 +1,6 @@
+Port Open:-->	21
+Port Open:-->	80
+Port Open:-->	135
+Port Open:-->	139
+Port Open:-->	443
+Port Open:-->	445

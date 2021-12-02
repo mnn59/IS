@@ -1,8 +1,11 @@
 # Default ignored files
 /shelf/
 /workspace.xml
+<<<<<<< HEAD
 # Datasource local storage ignored files
 /../../../../../../../../:\Term 9 University\Information-Security\HW\1-Implemetation\projects\1\.idea/dataSources/
 /dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/
+=======
+>>>>>>> 018428e2862a50819bf934a365a60185cb4ced78
